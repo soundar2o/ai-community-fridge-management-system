@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+target/
+backend/target/
+dist/
+frontend/dist/
+.venv/
+venv/
+env/
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Python
+__pycache__/
+/**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases
+backend/data/
+*.mv.db
+*.trace.db
+*.lock.db
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded Files
+backend/uploads/
+uploads/
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Temporary & Scratch Files
+scratch/
+backend/scratch/
+*.tmp
+*.log
+found_pass.txt
+mysql_pass.*
+init.sql
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
