@@ -91,6 +91,7 @@ public class SecurityConfig {
             // Authorization rules
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/api/auth/**").permitAll()
+                .requestMatchers("/api/health").permitAll()
                 .requestMatchers("/h2-console/**").permitAll()
                 .requestMatchers("/uploads/**").permitAll()
                 .requestMatchers("/error").permitAll()
