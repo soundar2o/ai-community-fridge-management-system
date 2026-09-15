@@ -1,0 +1,10 @@
+.git
+.gitignore
+.vscode
+target/
+*.log
+scratch/
+uploads/
+data/
+hs_err_*.log
+replay_*.log
